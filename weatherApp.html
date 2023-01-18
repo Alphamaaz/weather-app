@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Today-weather</title>
+    <link rel="stylesheet" href="wether.css">
+</head>
+<body>
+    <div class="main">
+        <div class="app">
+            <div class="form">
+            <img src="icon.svg" >
+            <input type="text" placeholder="Enter location" id="input" value="">
+            <!-- <button class="btn" id="btn">Search</button> -->
+            </div>
+       
+        <div class="square">
+           <div class="location">
+            <h5 id="place">Peshawar</h5>
+            <small id="date">mon 5/11/22</small>
+            <img src="Vector.png" >
+            </div>
+             <div class="temperatue">
+                <img src="Ellipse 1.png"class="elipse">
+                <h1 id="centigrade">30 </h1>
+                <img src="C.png" class="c">
+                
+                <img src="wether.svg" class="map">
+                
+            </div>
+            <div class="range">
+                <div class="highest">
+                    <h4>highest</h4>
+                    <p id="max_temp">34 C</p>
+                </div>
+                <div class="highest">
+                    <h4>lowest</h4>
+                    <p id="min_temp">14 C</p>
+                </div>
+
+            </div> 
+        </div>
+        <div class="square">
+            <div class="first">
+                <div class="right col">
+                <p id="feels_like">7 C</p>
+                <small>Temperature Felt</small>
+            </div>
+            <div class="right col">
+                <p id="sunset">4 km</p>
+                <small>Sunset</small>
+            </div>
+            </div>
+            <div class="first">
+                <div class="right">
+                <p id="wind_speed">7 C</p>
+                <small>Wind Speed</small>
+            </div>
+            <div class="right">
+                <p id="sunrise">4 km</p>
+                <small>Sunrise</small>
+            </div>
+            </div>
+            <div class="first">
+                <div class="right">
+                <p id="wind_degrees">4 km</p>
+                <small>Wind Degrees</small>
+            </div>
+            <div class="right humi">
+               <p id="humidity">4 km</p>
+               <small>Humidity</small>
+            </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <script src="wether.js"></script>
+    
+</body>
+</html>
